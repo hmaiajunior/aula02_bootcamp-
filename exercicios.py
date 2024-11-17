@@ -5,12 +5,12 @@
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
-valor1 = int(input("Entre com um número inteiro: "))
-valor2 = int(input("Entre com outro número inteiro: "))
+# valor1 = int(input("Entre com um número inteiro: "))
+# valor2 = int(input("Entre com outro número inteiro: "))
 
-resultado = valor1 // valor2
+# resultado = valor1 // valor2
 
-print(f"A divisão do {valor1} com o {valor2} é igual a {resultado}")
+# print(f"A divisão do {valor1} com o {valor2} é igual a {resultado}")
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
@@ -21,6 +21,13 @@ print(f"A divisão do {valor1} com o {valor2} é igual a {resultado}")
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+
+import math
+
+raio_do_circulo = float(input("Digite o raio: "))
+area_do_circulo = math.pi * raio_do_circulo ** 2
+print(f"{area_do_circulo:.2f}")
+
 
 # #### Strings (`str`)
 
