@@ -18,6 +18,20 @@
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+
+try:
+    num1 = float(input("Entre com um número inteiro: "))
+    num2 = float(input("Entre com outro número inteiro: "))
+
+    media = num1 / num2
+
+    print(f"A media dos números digitados é igual a: {media} ")
+
+except:
+    print("Voce não digitou um número inteiro")
+
+
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
@@ -62,12 +76,12 @@
 
 
 
-try:
-    temperatura = float(input("qual a temperatura em celsius? "))
-    fahrenheit = (temperatura * 9/5) + 32
-    print(f"{temperatura}°C é igual a {fahrenheit}°F.")
-except:
-    print("Favor entrar com um valor númerico")
+# try:
+#     temperatura = float(input("qual a temperatura em celsius? "))
+#     fahrenheit = (temperatura * 9/5) + 32
+#     print(f"{temperatura}°C é igual a {fahrenheit}°F.")
+# except:
+#     print("Favor entrar com um valor númerico")
 
 
 # 22: Verificador de Palíndromo
